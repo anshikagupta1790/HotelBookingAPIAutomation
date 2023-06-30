@@ -7,12 +7,12 @@
 * Build tool: maven <br>
 * Bundled Tools: TestNG
 * Language: JAVA <br>
-* Report: SureFire maven plugin report <br>
+* Report: Allure report report <br>
 * IDE: Eclipse <br>
 
 ----------------------------------------------------------
 
-## Project Foler Structure: <br>
+## Project Folder Structure: <br>
 
 ![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/05a43cdd-c45f-4b96-a4dc-6033229e9d6c)
 
