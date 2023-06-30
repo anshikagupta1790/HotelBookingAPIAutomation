@@ -14,13 +14,14 @@
 
 ## Project Foler Structure: <br>
 
-![image](https://github.com/anshikagupta1790/AnshikaGupta-GM-Assignment/assets/66030634/505cca5e-46cc-49dc-b155-a77957aad41c)
+![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/05a43cdd-c45f-4b96-a4dc-6033229e9d6c)
 
 * api.endpoints : This package contain helper java classes to perform CRUD(get, put, post, delete, patch) operations on API endpoints
 * api.model : This package contain model pojo classes for the API endpoint requests
 * api.utils : This package contain all the generic utility classes 
 * api.tests : This package contain all the test cases related to HotelBookingAPIs
 * src.test.resources : This package contain config file used in the project
+* target.allure-reports : This package contain all the reports required for allure maven plugin to generate the report.
 ----------------------------------------------------------
 
 ## API Test Suits:<br>
@@ -70,11 +71,12 @@
 1. Open cmd/bash terminal to the project folder(/HotelBookingAPIAutomation)
 2. Type this command:
    
-mvn clean test site -Dusername=admin -Dpassword=password123 -Dbasic.authentication=YWRtaW46cGFzc3dvcmQxMjM=
+mvn clean test -Dusername=admin -Dpassword=password123 -Dbasic.authentication=YWRtaW46cGFzc3dvcmQxMjM= allure:serve
 
+This command will perform the tests on all the Hotel Booking APIs and open allure reports in web browser.
 
-
-## Cypress Dashboard Related Info:<br>
-1. I have added a script in package.json file to run my script in Cypress Dashboard.While we run the script, the execution is done from the machine but the output will be shown in the cypress dashboard <br>
 
 ----------------------------------------------------------
+## Allure Report view from browser:
+
+
