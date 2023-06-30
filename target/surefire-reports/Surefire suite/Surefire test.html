@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Jun 30 15:58:01 CEST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22828 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='nl.payconiq.api.tests.PartialUpdateBookingTests.createBookingTestWithSuccess()'><b>createBookingTestWithSuccess</b><br>Test class: nl.payconiq.api.tests.PartialUpdateBookingTests<br>Test method: Test create new booking with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.UpdateBookingTests.createBookingTestWithSuccess()'><b>createBookingTestWithSuccess</b><br>Test class: nl.payconiq.api.tests.UpdateBookingTests<br>Test method: create new booking with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.UpdateBookingTests@6973bf95</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.CreateBookingTests.createBookingWithFailure()'><b>createBookingWithFailure</b><br>Test class: nl.payconiq.api.tests.CreateBookingTests<br>Test method: Test new booking creation & invalid request with failure response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.CreateBookingTests@229d10bd</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.createBookingWithSuccess()'><b>createBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Test create new booking with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.DeleteBookingTests.createBookingWithSuccess()'><b>createBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.DeleteBookingTests<br>Test method: Test new booking creation with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.DeleteBookingTests@6ce139a4</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.CreateBookingTests.createBookingWithSuccess()'><b>createBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.CreateBookingTests<br>Test method: Test new booking creation with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.CreateBookingTests@229d10bd</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.CreateTokenTests.createTokenTestWithBadCred()'><b>createTokenTestWithBadCred</b><br>Test class: nl.payconiq.api.tests.CreateTokenTests<br>Test method: Test new token creation & wrong username with failure response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.CreateTokenTests@77167fb7</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.CreateTokenTests.creteTokenTestWithSuccess()'><b>creteTokenTestWithSuccess</b><br>Test class: nl.payconiq.api.tests.CreateTokenTests<br>Test method: Test new token creation with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.CreateTokenTests@77167fb7</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.DeleteBookingTests.deleteBookingWithFailure()'><b>deleteBookingWithFailure</b><br>Test class: nl.payconiq.api.tests.DeleteBookingTests<br>Test method: Try to delete booking with bad authentication and received failure response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.DeleteBookingTests@6ce139a4</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.deleteBookingWithSuccess()'><b>deleteBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Delete the created booking with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.PartialUpdateBookingTests.deleteBookingWithSuccess()'><b>deleteBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.PartialUpdateBookingTests<br>Test method: Delete the previously created booking</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.DeleteBookingTests.deleteBookingWithSuccess()'><b>deleteBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.DeleteBookingTests<br>Test method: Test deletion of previously created booking with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.DeleteBookingTests@6ce139a4</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.UpdateBookingTests.deleteBookingWithSuccess()'><b>deleteBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.UpdateBookingTests<br>Test method: New created booking deleted with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.UpdateBookingTests@6973bf95</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.CreateBookingTests.deleteBookingWithSuccess()'><b>deleteBookingWithSuccess</b><br>Test class: nl.payconiq.api.tests.CreateBookingTests<br>Test method: New created booking deleted with success</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.CreateBookingTests@229d10bd</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.getAllBookingsWithFilter()'><b>getAllBookingsWithFilter</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Test to get all bookings with filters with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.getAllBookingsWithoutFilter()'><b>getAllBookingsWithoutFilter</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Test to get all booking without any filter with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.getBookingByIdSuccess()'><b>getBookingByIdSuccess</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Test get previously created booking by bookingId</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.GetBookingTests.getBookingByIdWithBadBokingID()'><b>getBookingByIdWithBadBokingID</b><br>Test class: nl.payconiq.api.tests.GetBookingTests<br>Test method: Test to get booking with wrong bookingId and received failure response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.GetBookingTests@15b204a1</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.HealthCheckAPITests.healthCheckAPIWithSuccess()'><b>healthCheckAPIWithSuccess</b><br>Test class: nl.payconiq.api.tests.HealthCheckAPITests<br>Test method: Test HealthCheck API endpoint with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.HealthCheckAPITests@2ddc8ecb</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.PartialUpdateBookingTests.partialuUpdateBookingTest()'><b>partialuUpdateBookingTest</b><br>Test class: nl.payconiq.api.tests.PartialUpdateBookingTests<br>Test method: Partially update the previously created booking with success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.PartialUpdateBookingTests.partialuUpdateBookingWithBadAuthenticationTest()'><b>partialuUpdateBookingWithBadAuthenticationTest</b><br>Test class: nl.payconiq.api.tests.PartialUpdateBookingTests<br>Test method: Partially update the previously created booking with invalid authentication and failure response code.</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.UpdateBookingTests.updateBookingTest()'><b>updateBookingTest</b><br>Test class: nl.payconiq.api.tests.UpdateBookingTests<br>Test method: update the previously created booking with new data and success response</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.UpdateBookingTests@6973bf95</td></tr>
+<tr>
+<td title='nl.payconiq.api.tests.UpdateBookingTests.updateBookingWithoutAuthTest()'><b>updateBookingWithoutAuthTest</b><br>Test class: nl.payconiq.api.tests.UpdateBookingTests<br>Test method: update existing booking with invalid token</td>
+<td></td>
+<td>0</td>
+<td>nl.payconiq.api.tests.UpdateBookingTests@6973bf95</td></tr>
+</table><p>
+</body>
+</html>

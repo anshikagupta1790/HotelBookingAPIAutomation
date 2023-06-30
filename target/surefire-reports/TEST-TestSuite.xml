@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="23.749" tests="23" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/test-classes:/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/classes:/Users/tigerlondon/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tigerlondon/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tigerlondon/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tigerlondon/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tigerlondon/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tigerlondon/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tigerlondon/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tigerlondon/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tigerlondon/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tigerlondon/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/tigerlondon/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tigerlondon/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tigerlondon/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tigerlondon/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tigerlondon/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tigerlondon/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tigerlondon/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-rest-assured/2.14.0/allure-rest-assured-2.14.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-attachments/2.14.0/allure-attachments-2.14.0.jar:/Users/tigerlondon/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-testng/2.23.0/allure-testng-2.23.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/tigerlondon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-test-filter/2.23.0/allure-test-filter-2.23.0.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="basic.authentication" value="YWRtaW46cGFzc3dvcmQxMjM="/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="password" value="password123"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Amsterdam"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/surefire/surefirebooter-20230630155800683_3.jar /Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/surefire 2023-06-30T15-58-00_088-jvmRun1 surefire-20230630155800683_1tmp surefire_0-20230630155800683_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/test-classes:/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/classes:/Users/tigerlondon/.m2/repository/io/rest-assured/rest-assured/5.3.1/rest-assured-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy/4.0.11/groovy-4.0.11.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy-xml/4.0.11/groovy-xml-4.0.11.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tigerlondon/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tigerlondon/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tigerlondon/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tigerlondon/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tigerlondon/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/json-path/5.3.1/json-path-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/apache/groovy/groovy-json/4.0.11/groovy-json-4.0.11.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/rest-assured-common/5.3.1/rest-assured-common-5.3.1.jar:/Users/tigerlondon/.m2/repository/io/rest-assured/xml-path/5.3.1/xml-path-5.3.1.jar:/Users/tigerlondon/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/Users/tigerlondon/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/tigerlondon/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/Users/tigerlondon/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/Users/tigerlondon/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/Users/tigerlondon/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/Users/tigerlondon/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/Users/tigerlondon/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/tigerlondon/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/tigerlondon/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/tigerlondon/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/tigerlondon/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:/Users/tigerlondon/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-rest-assured/2.14.0/allure-rest-assured-2.14.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-attachments/2.14.0/allure-attachments-2.14.0.jar:/Users/tigerlondon/.m2/repository/org/freemarker/freemarker/2.3.31/freemarker-2.3.31.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-testng/2.23.0/allure-testng-2.23.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-java-commons/2.23.0/allure-java-commons-2.23.0.jar:/Users/tigerlondon/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-model/2.23.0/allure-model-2.23.0.jar:/Users/tigerlondon/.m2/repository/io/qameta/allure/allure-test-filter/2.23.0/allure-test-filter-2.23.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tigerlondon"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/target/surefire/surefirebooter-20230630155800683_3.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_152-b16"/>
+    <property name="user.name" value="tigerlondon"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.7"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/tigerlondon/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/dg/tl30pl5n2lx19k93mwhh21_c0000gn/T/"/>
+    <property name="java.version" value="1.8.0_152"/>
+    <property name="user.dir" value="/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/tigerlondon/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.152-b16"/>
+    <property name="java.ext.dirs" value="/Users/tigerlondon/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_152.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="username" value="admin"/>
+  </properties>
+  <testcase name="createBookingWithSuccess" classname="nl.payconiq.api.tests.GetBookingTests" time="0.936">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Rosendo",
+    "lastname": "Cartwright",
+    "totalprice": 684,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pappardelle alla Bolognese"
+}
+{
+    "bookingid": 3004,
+    "booking": {
+        "firstname": "Rosendo",
+        "lastname": "Cartwright",
+        "totalprice": 684,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2017-01-01",
+            "checkout": "2018-01-01"
+        },
+        "additionalneeds": "Pappardelle alla Bolognese"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getBookingByIdSuccess" classname="nl.payconiq.api.tests.GetBookingTests" time="0.672">
+    <system-out><![CDATA[Body:			<none>
+{
+    "firstname": "Rosendo",
+    "lastname": "Cartwright",
+    "totalprice": 684,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pappardelle alla Bolognese"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getBookingByIdWithBadBokingID" classname="nl.payconiq.api.tests.GetBookingTests" time="0.57">
+    <system-out><![CDATA[Body:			<none>
+Not Found
+]]></system-out>
+  </testcase>
+  <testcase name="getAllBookingsWithoutFilter" classname="nl.payconiq.api.tests.GetBookingTests" time="0.981">
+    <system-out><![CDATA[Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="getAllBookingsWithFilter" classname="nl.payconiq.api.tests.GetBookingTests" time="0.58">
+    <system-out><![CDATA[Body:			<none>
+[
+    {
+        "bookingid": 3004
+    }
+]
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithSuccess" classname="nl.payconiq.api.tests.GetBookingTests" time="0.605">
+    <system-out><![CDATA[Body:			<none>
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="creteTokenTestWithSuccess" classname="nl.payconiq.api.tests.CreateTokenTests" time="0.539"/>
+  <testcase name="createTokenTestWithBadCred" classname="nl.payconiq.api.tests.CreateTokenTests" time="0.565">
+    <system-out><![CDATA[{
+    "reason": "Bad credentials"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingTestWithSuccess" classname="nl.payconiq.api.tests.PartialUpdateBookingTests" time="0.671">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Shaun",
+    "lastname": "Rath",
+    "totalprice": 212,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Massaman Curry"
+}
+{
+    "bookingid": 3055,
+    "booking": {
+        "firstname": "Shaun",
+        "lastname": "Rath",
+        "totalprice": 212,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2017-01-01",
+            "checkout": "2018-01-01"
+        },
+        "additionalneeds": "Massaman Curry"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="partialuUpdateBookingTest" classname="nl.payconiq.api.tests.PartialUpdateBookingTests" time="0.593">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Laurine",
+    "lastname": "Cremin"
+}
+{
+    "firstname": "Laurine",
+    "lastname": "Cremin",
+    "totalprice": 212,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Massaman Curry"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="partialuUpdateBookingWithBadAuthenticationTest" classname="nl.payconiq.api.tests.PartialUpdateBookingTests" time="0.598">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Randal",
+    "lastname": "Morissette"
+}
+Forbidden
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithSuccess" classname="nl.payconiq.api.tests.PartialUpdateBookingTests" time="0.616">
+    <system-out><![CDATA[Body:			<none>
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingWithSuccess" classname="nl.payconiq.api.tests.DeleteBookingTests" time="0.689">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Scottie",
+    "lastname": "Schneider",
+    "totalprice": 914,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Salmon Nigiri"
+}
+{
+    "bookingid": 3073,
+    "booking": {
+        "firstname": "Scottie",
+        "lastname": "Schneider",
+        "totalprice": 914,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2017-01-01",
+            "checkout": "2018-01-01"
+        },
+        "additionalneeds": "Salmon Nigiri"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithSuccess" classname="nl.payconiq.api.tests.DeleteBookingTests" time="0.555">
+    <system-out><![CDATA[Body:			<none>
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithFailure" classname="nl.payconiq.api.tests.DeleteBookingTests" time="0.535">
+    <system-out><![CDATA[Body:			<none>
+Method Not Allowed
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingTestWithSuccess" classname="nl.payconiq.api.tests.UpdateBookingTests" time="0.603">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Daren",
+    "lastname": "Konopelski",
+    "totalprice": 541,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pork Belly Buns"
+}
+{
+    "bookingid": 3095,
+    "booking": {
+        "firstname": "Daren",
+        "lastname": "Konopelski",
+        "totalprice": 541,
+        "depositpaid": false,
+        "bookingdates": {
+            "checkin": "2017-01-01",
+            "checkout": "2018-01-01"
+        },
+        "additionalneeds": "Pork Belly Buns"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookingTest" classname="nl.payconiq.api.tests.UpdateBookingTests" time="0.568">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Colby",
+    "lastname": "Jacobi",
+    "totalprice": 2509,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pork Belly Buns"
+}
+{
+    "firstname": "Colby",
+    "lastname": "Jacobi",
+    "totalprice": 2509,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pork Belly Buns"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateBookingWithoutAuthTest" classname="nl.payconiq.api.tests.UpdateBookingTests" time="0.559">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Isabell",
+    "lastname": "VonRueden",
+    "totalprice": 2071,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pork Belly Buns"
+}
+{
+    "firstname": "Isabell",
+    "lastname": "VonRueden",
+    "totalprice": 2071,
+    "depositpaid": false,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Pork Belly Buns"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithSuccess" classname="nl.payconiq.api.tests.UpdateBookingTests" time="0.627">
+    <system-out><![CDATA[Body:			<none>
+]]></system-out>
+  </testcase>
+  <testcase name="healthCheckAPIWithSuccess" classname="nl.payconiq.api.tests.HealthCheckAPITests" time="0.567">
+    <system-out><![CDATA[Body:			<none>
+Created
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingWithSuccess" classname="nl.payconiq.api.tests.CreateBookingTests" time="0.71">
+    <system-out><![CDATA[Body:
+{
+    "firstname": "Ramiro",
+    "lastname": "Jerde",
+    "totalprice": 730,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Souvlaki"
+}
+{
+    "bookingid": 3128,
+    "booking": {
+        "firstname": "Ramiro",
+        "lastname": "Jerde",
+        "totalprice": 730,
+        "depositpaid": true,
+        "bookingdates": {
+            "checkin": "2017-01-01",
+            "checkout": "2018-01-01"
+        },
+        "additionalneeds": "Souvlaki"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createBookingWithFailure" classname="nl.payconiq.api.tests.CreateBookingTests" time="0.57">
+    <system-out><![CDATA[Body:
+{
+    "lastname": "Jerde",
+    "totalprice": 730,
+    "depositpaid": true,
+    "bookingdates": {
+        "checkin": "2017-01-01",
+        "checkout": "2018-01-01"
+    },
+    "additionalneeds": "Souvlaki"
+}
+Internal Server Error
+]]></system-out>
+  </testcase>
+  <testcase name="deleteBookingWithSuccess" classname="nl.payconiq.api.tests.CreateBookingTests" time="0.557">
+    <system-out><![CDATA[Body:			<none>
+]]></system-out>
+  </testcase>
+</testsuite>

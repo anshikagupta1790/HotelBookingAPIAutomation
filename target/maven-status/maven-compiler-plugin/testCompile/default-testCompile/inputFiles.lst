@@ -1,0 +1,17 @@
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/CreateTokenTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/model/BookingDates.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/HealthCheckAPITests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/utils/PropertiesReader.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/endpoints/Auth.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/CreateBookingTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/model/CreateTokenRequest.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/PartialUpdateBookingTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/UpdateBookingTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/DeleteBookingTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/endpoints/Ping.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/GetBookingTests.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/tests/SetUp.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/endpoints/Booking.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/model/CreateBookingRequest.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/endpoints/Routes.java
+/Users/tigerlondon/eclipse-workspace/HotelBookingAPIAutomation/src/test/java/nl/payconiq/api/model/PartialUpdateBookingRequest.java

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="22828" started-at="2023-06-30T15:58:01 CEST" finished-at="2023-06-30T15:58:24 CEST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="22828" started-at="2023-06-30T15:58:01 CEST" finished-at="2023-06-30T15:58:24 CEST">
+      <class name="nl.payconiq.api.tests.GetBookingTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="setUp" is-config="true" duration-ms="4379" started-at="2023-06-30T15:58:01 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:06 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBookingWithSuccess()[pri:1, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="createBookingWithSuccess" duration-ms="932" started-at="2023-06-30T15:58:06 CEST" description="Test create new booking with success response" finished-at="2023-06-30T15:58:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithSuccess -->
+        <test-method status="PASS" signature="getBookingByIdSuccess()[pri:2, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="getBookingByIdSuccess" duration-ms="670" started-at="2023-06-30T15:58:07 CEST" description="Test get previously created booking by bookingId" finished-at="2023-06-30T15:58:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByIdSuccess -->
+        <test-method status="PASS" signature="getBookingByIdWithBadBokingID()[pri:3, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="getBookingByIdWithBadBokingID" duration-ms="569" started-at="2023-06-30T15:58:08 CEST" description="Test to get booking with wrong bookingId and received failure response" finished-at="2023-06-30T15:58:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingByIdWithBadBokingID -->
+        <test-method status="PASS" signature="getAllBookingsWithoutFilter()[pri:4, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="getAllBookingsWithoutFilter" duration-ms="982" started-at="2023-06-30T15:58:08 CEST" description="Test to get all booking without any filter with success response" finished-at="2023-06-30T15:58:09 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookingsWithoutFilter -->
+        <test-method status="PASS" signature="getAllBookingsWithFilter()[pri:5, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="getAllBookingsWithFilter" duration-ms="578" started-at="2023-06-30T15:58:09 CEST" description="Test to get all bookings with filters with success response" finished-at="2023-06-30T15:58:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllBookingsWithFilter -->
+        <test-method status="PASS" signature="deleteBookingWithSuccess()[pri:6, instance:nl.payconiq.api.tests.GetBookingTests@15b204a1]" name="deleteBookingWithSuccess" duration-ms="605" started-at="2023-06-30T15:58:10 CEST" description="Delete the created booking with success" finished-at="2023-06-30T15:58:10 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithSuccess -->
+      </class> <!-- nl.payconiq.api.tests.GetBookingTests -->
+      <class name="nl.payconiq.api.tests.PartialUpdateBookingTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588]" name="setUp" is-config="true" duration-ms="675" started-at="2023-06-30T15:58:12 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:13 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBookingTestWithSuccess()[pri:1, instance:nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588]" name="createBookingTestWithSuccess" duration-ms="672" started-at="2023-06-30T15:58:13 CEST" description="Test create new booking with success" finished-at="2023-06-30T15:58:13 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTestWithSuccess -->
+        <test-method status="PASS" signature="partialuUpdateBookingTest()[pri:2, instance:nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588]" name="partialuUpdateBookingTest" duration-ms="591" started-at="2023-06-30T15:58:13 CEST" description="Partially update the previously created booking with success response" finished-at="2023-06-30T15:58:14 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialuUpdateBookingTest -->
+        <test-method status="PASS" signature="partialuUpdateBookingWithBadAuthenticationTest()[pri:3, instance:nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588]" name="partialuUpdateBookingWithBadAuthenticationTest" duration-ms="597" started-at="2023-06-30T15:58:14 CEST" description="Partially update the previously created booking with invalid authentication and failure response code." finished-at="2023-06-30T15:58:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- partialuUpdateBookingWithBadAuthenticationTest -->
+        <test-method status="PASS" signature="deleteBookingWithSuccess()[pri:4, instance:nl.payconiq.api.tests.PartialUpdateBookingTests@1fe20588]" name="deleteBookingWithSuccess" duration-ms="616" started-at="2023-06-30T15:58:15 CEST" description="Delete the previously created booking" finished-at="2023-06-30T15:58:15 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithSuccess -->
+      </class> <!-- nl.payconiq.api.tests.PartialUpdateBookingTests -->
+      <class name="nl.payconiq.api.tests.HealthCheckAPITests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.HealthCheckAPITests@2ddc8ecb]" name="setUp" is-config="true" duration-ms="611" started-at="2023-06-30T15:58:21 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="healthCheckAPIWithSuccess()[pri:1, instance:nl.payconiq.api.tests.HealthCheckAPITests@2ddc8ecb]" name="healthCheckAPIWithSuccess" duration-ms="566" started-at="2023-06-30T15:58:21 CEST" description="Test HealthCheck API endpoint with success response" finished-at="2023-06-30T15:58:22 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheckAPIWithSuccess -->
+      </class> <!-- nl.payconiq.api.tests.HealthCheckAPITests -->
+      <class name="nl.payconiq.api.tests.DeleteBookingTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.DeleteBookingTests@6ce139a4]" name="setUp" is-config="true" duration-ms="614" started-at="2023-06-30T15:58:15 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:16 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBookingWithSuccess()[pri:1, instance:nl.payconiq.api.tests.DeleteBookingTests@6ce139a4]" name="createBookingWithSuccess" duration-ms="688" started-at="2023-06-30T15:58:16 CEST" description="Test new booking creation with success response" finished-at="2023-06-30T15:58:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithSuccess -->
+        <test-method status="PASS" signature="deleteBookingWithSuccess()[pri:2, instance:nl.payconiq.api.tests.DeleteBookingTests@6ce139a4]" name="deleteBookingWithSuccess" duration-ms="559" started-at="2023-06-30T15:58:17 CEST" description="Test deletion of previously created booking with success" finished-at="2023-06-30T15:58:17 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithSuccess -->
+        <test-method status="PASS" signature="deleteBookingWithFailure()[pri:3, instance:nl.payconiq.api.tests.DeleteBookingTests@6ce139a4]" name="deleteBookingWithFailure" duration-ms="535" started-at="2023-06-30T15:58:17 CEST" description="Try to delete booking with bad authentication and received failure response" finished-at="2023-06-30T15:58:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithFailure -->
+      </class> <!-- nl.payconiq.api.tests.DeleteBookingTests -->
+      <class name="nl.payconiq.api.tests.UpdateBookingTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.UpdateBookingTests@6973bf95]" name="setUp" is-config="true" duration-ms="573" started-at="2023-06-30T15:58:18 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:18 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBookingTestWithSuccess()[pri:1, instance:nl.payconiq.api.tests.UpdateBookingTests@6973bf95]" name="createBookingTestWithSuccess" duration-ms="601" started-at="2023-06-30T15:58:18 CEST" description="create new booking with success response" finished-at="2023-06-30T15:58:19 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTestWithSuccess -->
+        <test-method status="PASS" signature="updateBookingTest()[pri:2, instance:nl.payconiq.api.tests.UpdateBookingTests@6973bf95]" name="updateBookingTest" duration-ms="567" started-at="2023-06-30T15:58:19 CEST" description="update the previously created booking with new data and success response" finished-at="2023-06-30T15:58:19 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingTest -->
+        <test-method status="PASS" signature="updateBookingWithoutAuthTest()[pri:3, instance:nl.payconiq.api.tests.UpdateBookingTests@6973bf95]" name="updateBookingWithoutAuthTest" duration-ms="559" started-at="2023-06-30T15:58:19 CEST" description="update existing booking with invalid token" finished-at="2023-06-30T15:58:20 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingWithoutAuthTest -->
+        <test-method status="PASS" signature="deleteBookingWithSuccess()[pri:4, instance:nl.payconiq.api.tests.UpdateBookingTests@6973bf95]" name="deleteBookingWithSuccess" duration-ms="627" started-at="2023-06-30T15:58:20 CEST" description="New created booking deleted with success" finished-at="2023-06-30T15:58:21 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithSuccess -->
+      </class> <!-- nl.payconiq.api.tests.UpdateBookingTests -->
+      <class name="nl.payconiq.api.tests.CreateBookingTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.CreateBookingTests@229d10bd]" name="setUp" is-config="true" duration-ms="615" started-at="2023-06-30T15:58:22 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:22 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createBookingWithSuccess()[pri:1, instance:nl.payconiq.api.tests.CreateBookingTests@229d10bd]" name="createBookingWithSuccess" duration-ms="710" started-at="2023-06-30T15:58:22 CEST" description="Test new booking creation with success response" finished-at="2023-06-30T15:58:23 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithSuccess -->
+        <test-method status="PASS" signature="createBookingWithFailure()[pri:2, instance:nl.payconiq.api.tests.CreateBookingTests@229d10bd]" name="createBookingWithFailure" duration-ms="571" started-at="2023-06-30T15:58:23 CEST" description="Test new booking creation &amp; invalid request with failure response" finished-at="2023-06-30T15:58:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingWithFailure -->
+        <test-method status="PASS" signature="deleteBookingWithSuccess()[pri:3, instance:nl.payconiq.api.tests.CreateBookingTests@229d10bd]" name="deleteBookingWithSuccess" duration-ms="556" started-at="2023-06-30T15:58:24 CEST" description="New created booking deleted with success" finished-at="2023-06-30T15:58:24 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingWithSuccess -->
+      </class> <!-- nl.payconiq.api.tests.CreateBookingTests -->
+      <class name="nl.payconiq.api.tests.CreateTokenTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:nl.payconiq.api.tests.CreateTokenTests@77167fb7]" name="setUp" is-config="true" duration-ms="674" started-at="2023-06-30T15:58:10 CEST" description="Initialization method to set the base_url and request body for test cases" finished-at="2023-06-30T15:58:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creteTokenTestWithSuccess()[pri:1, instance:nl.payconiq.api.tests.CreateTokenTests@77167fb7]" name="creteTokenTestWithSuccess" duration-ms="542" started-at="2023-06-30T15:58:11 CEST" description="Test new token creation with success" finished-at="2023-06-30T15:58:11 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creteTokenTestWithSuccess -->
+        <test-method status="PASS" signature="createTokenTestWithBadCred()[pri:2, instance:nl.payconiq.api.tests.CreateTokenTests@77167fb7]" name="createTokenTestWithBadCred" duration-ms="564" started-at="2023-06-30T15:58:11 CEST" description="Test new token creation &amp; wrong username with failure response" finished-at="2023-06-30T15:58:12 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTokenTestWithBadCred -->
+      </class> <!-- nl.payconiq.api.tests.CreateTokenTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

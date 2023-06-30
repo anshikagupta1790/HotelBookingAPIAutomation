@@ -1,0 +1,17 @@
+nl/payconiq/api/endpoints/Ping.class
+nl/payconiq/api/model/CreateBookingRequest.class
+nl/payconiq/api/tests/CreateTokenTests.class
+nl/payconiq/api/endpoints/Auth.class
+nl/payconiq/api/endpoints/Booking.class
+nl/payconiq/api/tests/PartialUpdateBookingTests.class
+nl/payconiq/api/model/BookingDates.class
+nl/payconiq/api/tests/CreateBookingTests.class
+nl/payconiq/api/tests/UpdateBookingTests.class
+nl/payconiq/api/utils/PropertiesReader.class
+nl/payconiq/api/tests/GetBookingTests.class
+nl/payconiq/api/tests/HealthCheckAPITests.class
+nl/payconiq/api/model/PartialUpdateBookingRequest.class
+nl/payconiq/api/tests/SetUp.class
+nl/payconiq/api/model/CreateTokenRequest.class
+nl/payconiq/api/endpoints/Routes.class
+nl/payconiq/api/tests/DeleteBookingTests.class
