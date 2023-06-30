@@ -79,4 +79,12 @@ This command will perform the tests on all the Hotel Booking APIs and open allur
 ----------------------------------------------------------
 ## Allure Report view from browser:
 
+![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/4559dccf-b46a-48ed-9e83-4c1248f3ed76)
+
+![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/340c0e1f-57da-4cf1-88f1-1f432763aadf)
+
+![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/45e989b1-cba8-490e-bcef-470c00d1f85f)
+
+![image](https://github.com/anshikagupta1790/HotelBookingAPIAutomation/assets/66030634/d4cffd81-8af2-4d1e-bbc2-a9be1b6c46d5)
+
 
